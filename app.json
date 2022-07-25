@@ -1,0 +1,43 @@
+{
+    "expo": {
+        "name": "Z-RaDict",
+        "slug": "Z-RaDict",
+        "version": "1.1.3",
+        "orientation": "portrait",
+        "icon": "./src/assets/images/icon.png",
+        "scheme": "myapp",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./src/assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.hoangchi.ZRadict",
+            "buildNumber": "1.1.3"
+        },
+        "android": {
+            "package": "com.hoangchi.ZRadict",
+            "versionCode": 1,
+            "adaptiveIcon": {
+                "foregroundImage": "./src/assets/images/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "web": {
+            "favicon": "./src/assets/images/favicon.png"
+        },
+        "packagerOpts": {
+            "assetExts": [
+                "db"
+            ]
+        }
+    }
+}
