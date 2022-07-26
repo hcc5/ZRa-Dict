@@ -103,7 +103,7 @@ const Profile = (props: any) => {
             <Modal visible={isLoading} transparent>
                 <View style={_style.view_Activity}>
                     <ActivityIndicator size="large" color="#0000ff" />
-                    <Text style={{textAlign:'center', color:'blue', fontSize:20}}>Đang đồng bộ dữ liệu...</Text>
+                    <Text style={{textAlign:'center', color:'blue', fontSize:20}}>Đang đồng bộ dữ liệu. Vui lòng chờ 15-20p sau đó tắt app và vào lại...</Text>
                 </View>
             </Modal>
         )
@@ -242,6 +242,6 @@ const _style = StyleSheet.create({
     view_Activity: {
         flex: 1,
         justifyContent: "center",
-        top: 250
+        top: 200
     },
 })
