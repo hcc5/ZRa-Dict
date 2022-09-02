@@ -1,0 +1,18 @@
+export const AppImages = {
+    LOGO: require('./logobv108.png'),
+    EMAIL: require('./email.png'),
+    PASSWORD: require('./password.png'),
+    COMBINED_PASSWORD: require('./combined_password.png'),
+    REMEMBER: require('./remember.png'),
+    NAME: require('./name.png'),
+    HOME: require('./home-run.png'),
+    RIGHT_CHEV: require('./right-chev.png'),
+    ACOUNT: require('./blue-account.png'),
+    GRAY_ACOUNT: require('./gray-account.png'),
+    GRAY_MAIL: require('./gray-mail.png'),
+    GRAY_PHONE: require('./gray-phone.png'),
+    BOOK: require('./BOOK_3.png'),
+    CAMERA: require('./camera.png'),
+    AVATAR: require('./Avatar.png'),
+    SELECT: require('./select.png'),
+}
